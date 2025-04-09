@@ -23,6 +23,13 @@ class PantallaPrincipal2 : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
+
+
         }
+        val btnStockMarket = findViewById<Button>(R.id.btnStockMarket)
+        btnStockMarket.setOnClickListener {
+            startActivity(Intent(this, StockMarketActivity::class.java))
+        }
+
     }
 }

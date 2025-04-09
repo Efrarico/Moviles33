@@ -24,6 +24,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BalanceActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name=".StockMarketActivity"
+            android:exported="false" />  <!-- Si no es la pantalla principal -->
     </application>
 
 </manifest>

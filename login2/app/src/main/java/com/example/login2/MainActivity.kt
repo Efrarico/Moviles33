@@ -13,6 +13,8 @@ import androidx.core.view.WindowInsetsCompat
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
+import androidx.appcompat.app.AppCompatActivity
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
@@ -20,6 +22,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var psw: AppCompatEditText
     private lateinit var btnLogin:AppCompatButton
     private lateinit var btnRegister:AppCompatButton
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
